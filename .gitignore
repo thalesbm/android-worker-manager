@@ -7,6 +7,9 @@
 # Files for the ART/Dalvik VM
 *.dex
 
+# Mac 
+.DS_Store
+
 # Java class files
 *.class
 
@@ -19,6 +22,7 @@ out/
 
 # Gradle files
 .gradle/
+.idea/
 build/
 
 # Local configuration file (sdk path, etc)
@@ -44,6 +48,7 @@ captures/
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
+
 # Android Studio 3 in .gitignore file.
 .idea/caches
 .idea/modules.xml
